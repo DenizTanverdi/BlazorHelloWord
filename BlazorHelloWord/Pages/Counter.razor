@@ -1,0 +1,40 @@
+﻿@page "/counter"
+
+<h1>Dört İşlem</h1>
+<input type="number" @bind="@ilksayi" />
+<input type="number" @bind="@ikincisayi" />
+
+<button class="btn btn-primary" @onclick="DortIslem">Hesapla</button>
+<p>Çarpım Sonucu : @carpim</p>
+<p>Bölme Sonucu : @bolme</p>
+<p>Toplam Sonucu : @toplam</p>
+<p>Çıkarma Sonucu : @cikarma</p>
+
+
+@code {
+    private bool loadFailed;
+    public float ilksayi = 0;
+    public float ikincisayi = 0;
+    public float carpim = 0;
+    public float toplam = 0;
+    public float cikarma = 0;
+    public float bolme = 0;
+    
+
+    private void DortIslem()
+    {
+        try
+        {
+            carpim = ilksayi * ikincisayi;
+            toplam = ilksayi + ikincisayi;
+            cikarma = ilksayi - ikincisayi;
+            bolme =(float)(ilksayi / ikincisayi);
+        }
+        catch (Exception)
+        {
+          
+
+        }
+
+    }
+}
