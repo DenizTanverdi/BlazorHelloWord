@@ -49,5 +49,5 @@ Blazor ise .NET alt yapısını WebAssembly üzerine konuşlandırarak, C# ile s
     </ul>
     
 
-  Kaynak : https://medium.com/batech/webassembly-ve-blazor-nedir-dd5de1f60dc <br/>
-         : https://erhankocabuga.com/blazor-tarayici-tabanli-asp-net-core-web-uygulamalari
+  Kaynak 1 : https://medium.com/batech/webassembly-ve-blazor-nedir-dd5de1f60dc <br/>
+  Kaynak 1 : https://erhankocabuga.com/blazor-tarayici-tabanli-asp-net-core-web-uygulamalari
